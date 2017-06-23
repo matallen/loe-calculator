@@ -1,0 +1,3 @@
+<jboss-web>
+    <context-root>loe-calculator</context-root>
+</jboss-web>

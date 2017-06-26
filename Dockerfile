@@ -36,7 +36,7 @@ ADD gdrive-linux-x64 /bin/gdrive-linux-x64
 RUN chmod +x /bin/gdrive-linux-x64
 
 # Deploy the app
-ADD loe-calculator.war /opt/tomcat7/webapps/loe-calculator.war
+ADD target/loe-calculator.war /opt/tomcat7/webapps/loe-calculator.war
 
 
 EXPOSE 8080
